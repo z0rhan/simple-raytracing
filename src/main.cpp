@@ -1,7 +1,8 @@
 #include <iostream>
-#include <SDL2/SDL.h>
+#include "window.hh"
 
 int main () {
-    std::cout << "Tervetuloa\n";
-    return 0;
+    Window app;
+
+    return app.onExecute();
 }
